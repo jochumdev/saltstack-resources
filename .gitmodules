@@ -1,0 +1,663 @@
+[submodule "state-examples/brutasse"]
+	path = state-examples/brutasse
+	url = https://github.com/brutasse/states.git
+[submodule "state-examples/SS-Archive"]
+	path = state-examples/SS-Archive
+	url = https://github.com/SS-archive/salt-states.git
+[submodule "state-examples/salt-states"]
+	path = state-examples/salt-states
+	url = https://github.com/ConsumerAffairs/salt-states.git
+[submodule "state-examples/ConsumerAffairs"]
+	path = state-examples/ConsumerAffairs
+	url = https://github.com/ConsumerAffairs/salt-states.git
+[submodule "state-examples/ist0ne"]
+	path = state-examples/ist0ne
+	url = https://github.com/ist0ne/salt-states.git
+[submodule "state-examples/khrisrichardson"]
+	path = state-examples/khrisrichardson
+	url = https://github.com/khrisrichardson/salt-states.git
+[submodule "formulas/bechtoldt/apt"]
+	path = formulas/bechtoldt/apt
+	url = https://github.com/bechtoldt/saltstack-apt-formula.git
+[submodule "formulas/bechtoldt/foreman"]
+	path = formulas/bechtoldt/foreman
+	url = https://github.com/bechtoldt/saltstack-foreman-formula.git
+[submodule "formulas/bechtoldt/network"]
+	path = formulas/bechtoldt/network
+	url = https://github.com/bechtoldt/saltstack-network-formula.git
+[submodule "formulas/bechtoldt/ferm"]
+	path = formulas/bechtoldt/ferm
+	url = https://github.com/bechtoldt/saltstack-ferm-formula.git
+[submodule "formulas/bechtoldt/httpd"]
+	path = formulas/bechtoldt/httpd
+	url = https://github.com/bechtoldt/saltstack-httpd-formula.git
+[submodule "formulas/bechtoldt/php"]
+	path = formulas/bechtoldt/php
+	url = https://github.com/bechtoldt/saltstack-php-formula.git
+[submodule "formulas/bechtoldt/binddns"]
+	path = formulas/bechtoldt/binddns
+	url = https://github.com/bechtoldt/saltstack-binddns-formula.git
+[submodule "formulas/bechtoldt/varnish"]
+	path = formulas/bechtoldt/varnish
+	url = https://github.com/bechtoldt/saltstack-varnish-formula.git
+[submodule "formulas/bechtoldt/tftp"]
+	path = formulas/bechtoldt/tftp
+	url = https://github.com/bechtoldt/saltstack-tftp-formula.git
+[submodule "formulas/bechtoldt/salt"]
+	path = formulas/bechtoldt/salt
+	url = https://github.com/bechtoldt/saltstack-salt-formula.git
+[submodule "formulas/bechtoldt/gitlab"]
+	path = formulas/bechtoldt/gitlab
+	url = https://github.com/bechtoldt/gitlab-formula.git
+[submodule "formulas/bechtoldt/iscdhcp"]
+	path = formulas/bechtoldt/iscdhcp
+	url = https://github.com/bechtoldt/iscdhcp-formula.git
+[submodule "formulas/bechtoldt/linux"]
+	path = formulas/bechtoldt/linux
+	url = https://github.com/bechtoldt/saltstack-linux-formula.git
+[submodule "formulas/bechtoldt/ebtables"]
+	path = formulas/bechtoldt/ebtables
+	url = https://github.com/bechtoldt/saltstack-ebtables-formula.git
+[submodule "formulas/bechtoldt/crypto"]
+	path = formulas/bechtoldt/crypto
+	url = https://github.com/bechtoldt/saltstack-crypto-formula.git
+[submodule "formulas/bechtoldt/elasticsearch"]
+	path = formulas/bechtoldt/elasticsearch
+	url = https://github.com/bechtoldt/saltstack-elasticsearch-formula.git
+[submodule "formulas/bechtoldt/keepalived"]
+	path = formulas/bechtoldt/keepalived
+	url = https://github.com/bechtoldt/saltstack-keepalived-formula.git
+[submodule "formulas/bechtoldt/ssh"]
+	path = formulas/bechtoldt/ssh
+	url = https://github.com/bechtoldt/saltstack-ssh-formula.git
+[submodule "formulas/bechtoldt/users"]
+	path = formulas/bechtoldt/users
+	url = https://github.com/bechtoldt/saltstack-users-formula.git
+[submodule "formulas/bechtoldt/file"]
+	path = formulas/bechtoldt/file
+	url = https://github.com/bechtoldt/saltstack-file-formula.git
+[submodule "formulas/bechtoldt/rssh"]
+	path = formulas/bechtoldt/rssh
+	url = https://github.com/bechtoldt/saltstack-rssh-formula.git
+[submodule "formulas/bechtoldt/libvirt"]
+	path = formulas/bechtoldt/libvirt
+	url = https://github.com/bechtoldt/saltstack-libvirt-formula.git
+[submodule "formulas/bechtoldt/sysctl"]
+	path = formulas/bechtoldt/sysctl
+	url = https://github.com/bechtoldt/saltstack-sysctl-formula.git
+[submodule "formulas/bechtoldt/omd"]
+	path = formulas/bechtoldt/omd
+	url = https://github.com/bechtoldt/saltstack-omd-formula.git
+[submodule "formulas/bechtoldt/opennebula"]
+	path = formulas/bechtoldt/opennebula
+	url = https://github.com/bechtoldt/saltstack-opennebula-formula.git
+[submodule "formulas/bechtoldt/myback"]
+	path = formulas/bechtoldt/myback
+	url = https://github.com/bechtoldt/saltstack-myback-formula.git
+[submodule "formulas/bechtoldt/dovecot"]
+	path = formulas/bechtoldt/dovecot
+	url = https://github.com/bechtoldt/saltstack-dovecot-formula.git
+[submodule "formulas/bechtoldt/duply"]
+	path = formulas/bechtoldt/duply
+	url = https://github.com/bechtoldt/saltstack-duply-formula.git
+[submodule "formulas/bechtoldt/postfix"]
+	path = formulas/bechtoldt/postfix
+	url = https://github.com/bechtoldt/saltstack-postfix-formula.git
+[submodule "formulas/bechtoldt/tools"]
+	path = formulas/bechtoldt/tools
+	url = https://github.com/bechtoldt/saltstack-tools-formula.git
+[submodule "formulas/bechtoldt/mysql"]
+	path = formulas/bechtoldt/mysql
+	url = https://github.com/bechtoldt/saltstack-mysql-formula.git
+[submodule "formulas/bechtoldt/nfs"]
+	path = formulas/bechtoldt/nfs
+	url = https://github.com/bechtoldt/saltstack-nfs-formula.git
+[submodule "formulas/bechtoldt/cron"]
+	path = formulas/bechtoldt/cron
+	url = https://github.com/bechtoldt/saltstack-cron-formula.git
+[submodule "formulas/bechtoldt/vim"]
+	path = formulas/bechtoldt/vim
+	url = https://github.com/bechtoldt/saltstack-vim-formula.git
+[submodule "formulas/bechtoldt/pam"]
+	path = formulas/bechtoldt/pam
+	url = https://github.com/bechtoldt/saltstack-pam-formula.git
+[submodule "formulas/bechtoldt/yubikey"]
+	path = formulas/bechtoldt/yubikey
+	url = https://github.com/bechtoldt/saltstack-yubikey-formula.git
+[submodule "formulas/bechtoldt/mongodb"]
+	path = formulas/bechtoldt/mongodb
+	url = https://github.com/bechtoldt/saltstack-mongodb-formula.git
+[submodule "formulas/bechtoldt/zsh"]
+	path = formulas/bechtoldt/zsh
+	url = https://github.com/bechtoldt/saltstack-zsh-formula.git
+[submodule "formulas/bechtoldt/postgresql"]
+	path = formulas/bechtoldt/postgresql
+	url = https://github.com/bechtoldt/saltstack-postgresql-formula.git
+[submodule "formulas/bechtoldt/nginx"]
+	path = formulas/bechtoldt/nginx
+	url = https://github.com/bechtoldt/saltstack-nginx-formula.git
+[submodule "formulas/bechtoldt/bash"]
+	path = formulas/bechtoldt/bash
+	url = https://github.com/bechtoldt/saltstack-bash-formula.git
+[submodule "formulas/bechtoldt/time"]
+	path = formulas/bechtoldt/time
+	url = https://github.com/bechtoldt/saltstack-time-formula.git
+[submodule "formulas/bechtoldt/pulp"]
+	path = formulas/bechtoldt/pulp
+	url = https://github.com/bechtoldt/saltstack-pulp-formula.git
+[submodule "formulas/bechtoldt/sudo"]
+	path = formulas/bechtoldt/sudo
+	url = https://github.com/bechtoldt/saltstack-sudo-formula.git
+[submodule "formulas/bechtoldt/sysvinit"]
+	path = formulas/bechtoldt/sysvinit
+	url = https://github.com/bechtoldt/saltstack-sysvinit-formula.git
+[submodule "formulas/bechtoldt/git"]
+	path = formulas/bechtoldt/git
+	url = https://github.com/bechtoldt/saltstack-git-formula.git
+[submodule "formulas/bechtoldt/grub"]
+	path = formulas/bechtoldt/grub
+	url = https://github.com/bechtoldt/saltstack-grub-formula.git
+[submodule "formulas/bechtoldt/openvswitch"]
+	path = formulas/bechtoldt/openvswitch
+	url = https://github.com/bechtoldt/saltstack-openvswitch-formula.git
+[submodule "formulas/bechtoldt/repositorio"]
+	path = formulas/bechtoldt/repositorio
+	url = https://github.com/bechtoldt/saltstack-repositorio-formula.git
+[submodule "formulas/bechtoldt/squid"]
+	path = formulas/bechtoldt/squid
+	url = https://github.com/bechtoldt/saltstack-squid-formula.git
+[submodule "formulas/bechtoldt/dnsmasq"]
+	path = formulas/bechtoldt/dnsmasq
+	url = https://github.com/bechtoldt/saltstack-dnsmasq-formula.git
+[submodule "formulas/bechtoldt/liveconfig"]
+	path = formulas/bechtoldt/liveconfig
+	url = https://github.com/bechtoldt/saltstack-liveconfig-formula.git
+[submodule "formulas/bechtoldt/clamav"]
+	path = formulas/bechtoldt/clamav
+	url = https://github.com/bechtoldt/saltstack-clamav-formula.git
+[submodule "formulas/bechtoldt/rex"]
+	path = formulas/bechtoldt/rex
+	url = https://github.com/bechtoldt/saltstack-rex-formula.git
+[submodule "formulas/bechtoldt/amavis"]
+	path = formulas/bechtoldt/amavis
+	url = https://github.com/bechtoldt/saltstack-amavis-formula.git
+[submodule "formulas/bechtoldt/spamassassin"]
+	path = formulas/bechtoldt/spamassassin
+	url = https://github.com/bechtoldt/saltstack-spamassassin-formula.git
+[submodule "formulas/bechtoldt/aptcacherng"]
+	path = formulas/bechtoldt/aptcacherng
+	url = https://github.com/bechtoldt/saltstack-aptcacherng-formula.git
+[submodule "formulas/bechtoldt/tinc"]
+	path = formulas/bechtoldt/tinc
+	url = https://github.com/bechtoldt/saltstack-tinc-formula.git
+[submodule "formulas/bechtoldt/ipa"]
+	path = formulas/bechtoldt/ipa
+	url = https://github.com/bechtoldt/saltstack-ipa-formula.git
+[submodule "formulas/saltstack-formulas/apache"]
+	path = formulas/saltstack-formulas/apache
+	url = https://github.com/saltstack-formulas/apache-formula.git
+[submodule "formulas/saltstack-formulas/mysql"]
+	path = formulas/saltstack-formulas/mysql
+	url = https://github.com/saltstack-formulas/mysql-formula.git
+[submodule "formulas/saltstack-formulas/memcached"]
+	path = formulas/saltstack-formulas/memcached
+	url = https://github.com/saltstack-formulas/memcached-formula.git
+[submodule "formulas/saltstack-formulas/jenkins"]
+	path = formulas/saltstack-formulas/jenkins
+	url = https://github.com/saltstack-formulas/jenkins-formula.git
+[submodule "formulas/saltstack-formulas/python2"]
+	path = formulas/saltstack-formulas/python2
+	url = https://github.com/saltstack-formulas/python2-formula.git
+[submodule "formulas/saltstack-formulas/avahi"]
+	path = formulas/saltstack-formulas/avahi
+	url = https://github.com/saltstack-formulas/avahi-formula.git
+[submodule "formulas/saltstack-formulas/mongodb"]
+	path = formulas/saltstack-formulas/mongodb
+	url = https://github.com/saltstack-formulas/mongodb-formula.git
+[submodule "formulas/saltstack-formulas/nginx"]
+	path = formulas/saltstack-formulas/nginx
+	url = https://github.com/saltstack-formulas/nginx-formula.git
+[submodule "formulas/saltstack-formulas/perl"]
+	path = formulas/saltstack-formulas/perl
+	url = https://github.com/saltstack-formulas/perl-formula.git
+[submodule "formulas/saltstack-formulas/ruby"]
+	path = formulas/saltstack-formulas/ruby
+	url = https://github.com/saltstack-formulas/ruby-formula.git
+[submodule "formulas/saltstack-formulas/lua"]
+	path = formulas/saltstack-formulas/lua
+	url = https://github.com/saltstack-formulas/lua-formula.git
+[submodule "formulas/saltstack-formulas/php"]
+	path = formulas/saltstack-formulas/php
+	url = https://github.com/saltstack-formulas/php-formula.git
+[submodule "formulas/saltstack-formulas/postgres"]
+	path = formulas/saltstack-formulas/postgres
+	url = https://github.com/saltstack-formulas/postgres-formula.git
+[submodule "formulas/saltstack-formulas/openstack-standalone"]
+	path = formulas/saltstack-formulas/openstack-standalone
+	url = https://github.com/saltstack-formulas/openstack-standalone-formula.git
+[submodule "formulas/saltstack-formulas/linux-dev"]
+	path = formulas/saltstack-formulas/linux-dev
+	url = https://github.com/saltstack-formulas/linux-dev-formula.git
+[submodule "formulas/saltstack-formulas/vim"]
+	path = formulas/saltstack-formulas/vim
+	url = https://github.com/saltstack-formulas/vim-formula.git
+[submodule "formulas/saltstack-formulas/java"]
+	path = formulas/saltstack-formulas/java
+	url = https://github.com/saltstack-formulas/java-formula.git
+[submodule "formulas/saltstack-formulas/rabbitmq"]
+	path = formulas/saltstack-formulas/rabbitmq
+	url = https://github.com/saltstack-formulas/rabbitmq-formula.git
+[submodule "formulas/saltstack-formulas/squid"]
+	path = formulas/saltstack-formulas/squid
+	url = https://github.com/saltstack-formulas/squid-formula.git
+[submodule "formulas/saltstack-formulas/dansguardian"]
+	path = formulas/saltstack-formulas/dansguardian
+	url = https://github.com/saltstack-formulas/dansguardian-formula.git
+[submodule "formulas/saltstack-formulas/tomcat"]
+	path = formulas/saltstack-formulas/tomcat
+	url = https://github.com/saltstack-formulas/tomcat-formula.git
+[submodule "formulas/saltstack-formulas/git"]
+	path = formulas/saltstack-formulas/git
+	url = https://github.com/saltstack-formulas/git-formula.git
+[submodule "formulas/saltstack-formulas/mercurial"]
+	path = formulas/saltstack-formulas/mercurial
+	url = https://github.com/saltstack-formulas/mercurial-formula.git
+[submodule "formulas/saltstack-formulas/svn"]
+	path = formulas/saltstack-formulas/svn
+	url = https://github.com/saltstack-formulas/svn-formula.git
+[submodule "formulas/saltstack-formulas/openssh"]
+	path = formulas/saltstack-formulas/openssh
+	url = https://github.com/saltstack-formulas/openssh-formula.git
+[submodule "formulas/saltstack-formulas/postfix"]
+	path = formulas/saltstack-formulas/postfix
+	url = https://github.com/saltstack-formulas/postfix-formula.git
+[submodule "formulas/saltstack-formulas/tmux"]
+	path = formulas/saltstack-formulas/tmux
+	url = https://github.com/saltstack-formulas/tmux-formula.git
+[submodule "formulas/saltstack-formulas/screen"]
+	path = formulas/saltstack-formulas/screen
+	url = https://github.com/saltstack-formulas/screen-formula.git
+[submodule "formulas/saltstack-formulas/emacs"]
+	path = formulas/saltstack-formulas/emacs
+	url = https://github.com/saltstack-formulas/emacs-formula.git
+[submodule "formulas/saltstack-formulas/haproxy"]
+	path = formulas/saltstack-formulas/haproxy
+	url = https://github.com/saltstack-formulas/haproxy-formula.git
+[submodule "formulas/saltstack-formulas/samba"]
+	path = formulas/saltstack-formulas/samba
+	url = https://github.com/saltstack-formulas/samba-formula.git
+[submodule "formulas/saltstack-formulas/ntp"]
+	path = formulas/saltstack-formulas/ntp
+	url = https://github.com/saltstack-formulas/ntp-formula.git
+[submodule "formulas/saltstack-formulas/openldap"]
+	path = formulas/saltstack-formulas/openldap
+	url = https://github.com/saltstack-formulas/openldap-formula.git
+[submodule "formulas/saltstack-formulas/erlang"]
+	path = formulas/saltstack-formulas/erlang
+	url = https://github.com/saltstack-formulas/erlang-formula.git
+[submodule "formulas/saltstack-formulas/nscd"]
+	path = formulas/saltstack-formulas/nscd
+	url = https://github.com/saltstack-formulas/nscd-formula.git
+[submodule "formulas/saltstack-formulas/bind"]
+	path = formulas/saltstack-formulas/bind
+	url = https://github.com/saltstack-formulas/bind-formula.git
+[submodule "formulas/saltstack-formulas/dhcpd"]
+	path = formulas/saltstack-formulas/dhcpd
+	url = https://github.com/saltstack-formulas/dhcpd-formula.git
+[submodule "formulas/saltstack-formulas/dnsmasq"]
+	path = formulas/saltstack-formulas/dnsmasq
+	url = https://github.com/saltstack-formulas/dnsmasq-formula.git
+[submodule "formulas/saltstack-formulas/hadoop"]
+	path = formulas/saltstack-formulas/hadoop
+	url = https://github.com/saltstack-formulas/hadoop-formula.git
+[submodule "formulas/saltstack-formulas/nano"]
+	path = formulas/saltstack-formulas/nano
+	url = https://github.com/saltstack-formulas/nano-formula.git
+[submodule "formulas/saltstack-formulas/salt"]
+	path = formulas/saltstack-formulas/salt
+	url = https://github.com/saltstack-formulas/salt-formula.git
+[submodule "formulas/saltstack-formulas/resolver"]
+	path = formulas/saltstack-formulas/resolver
+	url = https://github.com/saltstack-formulas/resolver-formula.git
+[submodule "formulas/saltstack-formulas/polycom"]
+	path = formulas/saltstack-formulas/polycom
+	url = https://github.com/saltstack-formulas/polycom-formula.git
+[submodule "formulas/saltstack-formulas/redis"]
+	path = formulas/saltstack-formulas/redis
+	url = https://github.com/saltstack-formulas/redis-formula.git
+[submodule "formulas/saltstack-formulas/users"]
+	path = formulas/saltstack-formulas/users
+	url = https://github.com/saltstack-formulas/users-formula.git
+[submodule "formulas/saltstack-formulas/riak"]
+	path = formulas/saltstack-formulas/riak
+	url = https://github.com/saltstack-formulas/riak-formula.git
+[submodule "formulas/saltstack-formulas/node"]
+	path = formulas/saltstack-formulas/node
+	url = https://github.com/saltstack-formulas/node-formula.git
+[submodule "formulas/saltstack-formulas/build-essential"]
+	path = formulas/saltstack-formulas/build-essential
+	url = https://github.com/saltstack-formulas/build-essential-formula.git
+[submodule "formulas/saltstack-formulas/canvas"]
+	path = formulas/saltstack-formulas/canvas
+	url = https://github.com/saltstack-formulas/canvas-formula.git
+[submodule "formulas/saltstack-formulas/hosts"]
+	path = formulas/saltstack-formulas/hosts
+	url = https://github.com/saltstack-formulas/hosts-formula.git
+[submodule "formulas/saltstack-formulas/boundary"]
+	path = formulas/saltstack-formulas/boundary
+	url = https://github.com/saltstack-formulas/boundary-formula.git
+[submodule "formulas/saltstack-formulas/powerdns"]
+	path = formulas/saltstack-formulas/powerdns
+	url = https://github.com/saltstack-formulas/powerdns-formula.git
+[submodule "formulas/saltstack-formulas/elasticsearch-logstash-kibana"]
+	path = formulas/saltstack-formulas/elasticsearch-logstash-kibana
+	url = https://github.com/saltstack-formulas/elasticsearch-logstash-kibana-formula.git
+[submodule "formulas/saltstack-formulas/apt"]
+	path = formulas/saltstack-formulas/apt
+	url = https://github.com/saltstack-formulas/apt-formula.git
+[submodule "formulas/saltstack-formulas/drupal"]
+	path = formulas/saltstack-formulas/drupal
+	url = https://github.com/saltstack-formulas/drupal-formula.git
+[submodule "formulas/saltstack-formulas/owncloud"]
+	path = formulas/saltstack-formulas/owncloud
+	url = https://github.com/saltstack-formulas/owncloud-formula.git
+[submodule "formulas/saltstack-formulas/gitlab"]
+	path = formulas/saltstack-formulas/gitlab
+	url = https://github.com/saltstack-formulas/gitlab-formula.git
+[submodule "formulas/saltstack-formulas/piwik"]
+	path = formulas/saltstack-formulas/piwik
+	url = https://github.com/saltstack-formulas/piwik-formula.git
+[submodule "formulas/saltstack-formulas/epel"]
+	path = formulas/saltstack-formulas/epel
+	url = https://github.com/saltstack-formulas/epel-formula.git
+[submodule "formulas/saltstack-formulas/wso2"]
+	path = formulas/saltstack-formulas/wso2
+	url = https://github.com/saltstack-formulas/wso2-formula.git
+[submodule "formulas/saltstack-formulas/qpid"]
+	path = formulas/saltstack-formulas/qpid
+	url = https://github.com/saltstack-formulas/qpid-formula.git
+[submodule "formulas/saltstack-formulas/django"]
+	path = formulas/saltstack-formulas/django
+	url = https://github.com/saltstack-formulas/django-formula.git
+[submodule "formulas/saltstack-formulas/eucalyptus"]
+	path = formulas/saltstack-formulas/eucalyptus
+	url = https://github.com/saltstack-formulas/eucalyptus-formula.git
+[submodule "formulas/saltstack-formulas/sudoers"]
+	path = formulas/saltstack-formulas/sudoers
+	url = https://github.com/saltstack-formulas/sudoers-formula.git
+[submodule "formulas/saltstack-formulas/puppet"]
+	path = formulas/saltstack-formulas/puppet
+	url = https://github.com/saltstack-formulas/puppet-formula.git
+[submodule "formulas/saltstack-formulas/ssh"]
+	path = formulas/saltstack-formulas/ssh
+	url = https://github.com/saltstack-formulas/ssh-formula.git
+[submodule "formulas/saltstack-formulas/pip"]
+	path = formulas/saltstack-formulas/pip
+	url = https://github.com/saltstack-formulas/pip-formula.git
+[submodule "formulas/saltstack-formulas/virtualenv"]
+	path = formulas/saltstack-formulas/virtualenv
+	url = https://github.com/saltstack-formulas/virtualenv-formula.git
+[submodule "formulas/saltstack-formulas/salt-virt"]
+	path = formulas/saltstack-formulas/salt-virt
+	url = https://github.com/saltstack-formulas/salt-virt-formula.git
+[submodule "formulas/saltstack-formulas/libvirt"]
+	path = formulas/saltstack-formulas/libvirt
+	url = https://github.com/saltstack-formulas/libvirt-formula.git
+[submodule "formulas/saltstack-formulas/docker"]
+	path = formulas/saltstack-formulas/docker
+	url = https://github.com/saltstack-formulas/docker-formula.git
+[submodule "formulas/saltstack-formulas/nagios"]
+	path = formulas/saltstack-formulas/nagios
+	url = https://github.com/saltstack-formulas/nagios-formula.git
+[submodule "formulas/saltstack-formulas/chef"]
+	path = formulas/saltstack-formulas/chef
+	url = https://github.com/saltstack-formulas/chef-formula.git
+[submodule "formulas/saltstack-formulas/openvpn-client"]
+	path = formulas/saltstack-formulas/openvpn-client
+	url = https://github.com/saltstack-formulas/openvpn-client-formula.git
+[submodule "formulas/saltstack-formulas/template"]
+	path = formulas/saltstack-formulas/template
+	url = https://github.com/saltstack-formulas/template-formula.git
+[submodule "formulas/saltstack-formulas/remi"]
+	path = formulas/saltstack-formulas/remi
+	url = https://github.com/saltstack-formulas/remi-formula.git
+[submodule "formulas/saltstack-formulas/ejabberd"]
+	path = formulas/saltstack-formulas/ejabberd
+	url = https://github.com/saltstack-formulas/ejabberd-formula.git
+[submodule "formulas/saltstack-formulas/backuptocloud"]
+	path = formulas/saltstack-formulas/backuptocloud
+	url = https://github.com/saltstack-formulas/backuptocloud-formula.git
+[submodule "formulas/saltstack-formulas/ddclient"]
+	path = formulas/saltstack-formulas/ddclient
+	url = https://github.com/saltstack-formulas/ddclient-formula.git
+[submodule "formulas/saltstack-formulas/fail2ban"]
+	path = formulas/saltstack-formulas/fail2ban
+	url = https://github.com/saltstack-formulas/fail2ban-formula.git
+[submodule "formulas/saltstack-formulas/apt-cacher"]
+	path = formulas/saltstack-formulas/apt-cacher
+	url = https://github.com/saltstack-formulas/apt-cacher-formula.git
+[submodule "formulas/saltstack-formulas/munin"]
+	path = formulas/saltstack-formulas/munin
+	url = https://github.com/saltstack-formulas/munin-formula.git
+[submodule "formulas/saltstack-formulas/hostsfile"]
+	path = formulas/saltstack-formulas/hostsfile
+	url = https://github.com/saltstack-formulas/hostsfile-formula.git
+[submodule "formulas/saltstack-formulas/sun-java"]
+	path = formulas/saltstack-formulas/sun-java
+	url = https://github.com/saltstack-formulas/sun-java-formula.git
+[submodule "formulas/saltstack-formulas/zookeeper"]
+	path = formulas/saltstack-formulas/zookeeper
+	url = https://github.com/saltstack-formulas/zookeeper-formula.git
+[submodule "formulas/saltstack-formulas/twemproxy"]
+	path = formulas/saltstack-formulas/twemproxy
+	url = https://github.com/saltstack-formulas/twemproxy-formula.git
+[submodule "formulas/saltstack-formulas/accumulo"]
+	path = formulas/saltstack-formulas/accumulo
+	url = https://github.com/saltstack-formulas/accumulo-formula.git
+[submodule "formulas/saltstack-formulas/maven"]
+	path = formulas/saltstack-formulas/maven
+	url = https://github.com/saltstack-formulas/maven-formula.git
+[submodule "formulas/saltstack-formulas/jmxtrans"]
+	path = formulas/saltstack-formulas/jmxtrans
+	url = https://github.com/saltstack-formulas/jmxtrans-formula.git
+[submodule "formulas/saltstack-formulas/graphite"]
+	path = formulas/saltstack-formulas/graphite
+	url = https://github.com/saltstack-formulas/graphite-formula.git
+[submodule "formulas/saltstack-formulas/halite"]
+	path = formulas/saltstack-formulas/halite
+	url = https://github.com/saltstack-formulas/halite-formula.git
+[submodule "formulas/saltstack-formulas/ceph"]
+	path = formulas/saltstack-formulas/ceph
+	url = https://github.com/saltstack-formulas/ceph-formula.git
+[submodule "formulas/saltstack-formulas/jdbc"]
+	path = formulas/saltstack-formulas/jdbc
+	url = https://github.com/saltstack-formulas/jdbc-formula.git
+[submodule "formulas/saltstack-formulas/cloudstack"]
+	path = formulas/saltstack-formulas/cloudstack
+	url = https://github.com/saltstack-formulas/cloudstack-formula.git
+[submodule "formulas/saltstack-formulas/pam-ldap"]
+	path = formulas/saltstack-formulas/pam-ldap
+	url = https://github.com/saltstack-formulas/pam-ldap-formula.git
+[submodule "formulas/saltstack-formulas/vmware-tools"]
+	path = formulas/saltstack-formulas/vmware-tools
+	url = https://github.com/saltstack-formulas/vmware-tools-formula.git
+[submodule "formulas/saltstack-formulas/proftpd"]
+	path = formulas/saltstack-formulas/proftpd
+	url = https://github.com/saltstack-formulas/proftpd-formula.git
+[submodule "formulas/saltstack-formulas/djbdns"]
+	path = formulas/saltstack-formulas/djbdns
+	url = https://github.com/saltstack-formulas/djbdns-formula.git
+[submodule "formulas/saltstack-formulas/salt-docs"]
+	path = formulas/saltstack-formulas/salt-docs
+	url = https://github.com/saltstack-formulas/salt-docs-formula.git
+[submodule "formulas/saltstack-formulas/varnish"]
+	path = formulas/saltstack-formulas/varnish
+	url = https://github.com/saltstack-formulas/varnish-formula.git
+[submodule "formulas/saltstack-formulas/sysstat"]
+	path = formulas/saltstack-formulas/sysstat
+	url = https://github.com/saltstack-formulas/sysstat-formula.git
+[submodule "formulas/saltstack-formulas/tinc"]
+	path = formulas/saltstack-formulas/tinc
+	url = https://github.com/saltstack-formulas/tinc-formula.git
+[submodule "formulas/saltstack-formulas/zendserver"]
+	path = formulas/saltstack-formulas/zendserver
+	url = https://github.com/saltstack-formulas/zendserver-formula.git
+[submodule "formulas/saltstack-formulas/iptables"]
+	path = formulas/saltstack-formulas/iptables
+	url = https://github.com/saltstack-formulas/iptables-formula.git
+[submodule "formulas/saltstack-formulas/zabbix"]
+	path = formulas/saltstack-formulas/zabbix
+	url = https://github.com/saltstack-formulas/zabbix-formula.git
+[submodule "formulas/saltstack-formulas/thrift"]
+	path = formulas/saltstack-formulas/thrift
+	url = https://github.com/saltstack-formulas/thrift-formula.git
+[submodule "formulas/saltstack-formulas/ec2-autoscale-reactor"]
+	path = formulas/saltstacks/ec2-autoscale-reactor
+	url = https://github.com/saltstack-formulas/ec2-autoscale-reactor.git
+[submodule "formulas/saltstack-formulas/moosefs"]
+	path = formulas/saltstack-formulas/moosefs
+	url = https://github.com/saltstack-formulas/moosefs-formula.git
+[submodule "formulas/saltstack-formulas/sphinx-doc"]
+	path = formulas/saltstack-formulas/sphinx-doc
+	url = https://github.com/saltstack-formulas/sphinx-doc-formula.git
+[submodule "formulas/saltstack-formulas/salt-cloud-reactor"]
+	path = formulas/saltstacks/salt-cloud-reactor
+	url = https://github.com/saltstack-formulas/salt-cloud-reactor.git
+[submodule "formulas/saltstack-formulas/readthedocs"]
+	path = formulas/saltstack-formulas/readthedocs
+	url = https://github.com/saltstack-formulas/readthedocs-formula.git
+[submodule "formulas/saltstack-formulas/cherrypy"]
+	path = formulas/saltstack-formulas/cherrypy
+	url = https://github.com/saltstack-formulas/cherrypy-formula.git
+[submodule "formulas/saltstack-formulas/beaver"]
+	path = formulas/saltstack-formulas/beaver
+	url = https://github.com/saltstack-formulas/beaver-formula.git
+[submodule "formulas/saltstack-formulas/riemann"]
+	path = formulas/saltstack-formulas/riemann
+	url = https://github.com/saltstack-formulas/riemann-formula.git
+[submodule "formulas/saltstack-formulas/nexus"]
+	path = formulas/saltstack-formulas/nexus
+	url = https://github.com/saltstack-formulas/nexus-formula.git
+[submodule "formulas/saltstack-formulas/latex"]
+	path = formulas/saltstack-formulas/latex
+	url = https://github.com/saltstack-formulas/latex-formula.git
+[submodule "formulas/saltstack-formulas/newrelic"]
+	path = formulas/saltstack-formulas/newrelic
+	url = https://github.com/saltstack-formulas/newrelic-formula.git
+[submodule "formulas/saltstack-formulas/sumo-logic"]
+	path = formulas/saltstack-formulas/sumo-logic
+	url = https://github.com/saltstack-formulas/sumo-logic-formula.git
+[submodule "formulas/saltstack-formulas/dovecot"]
+	path = formulas/saltstack-formulas/dovecot
+	url = https://github.com/saltstack-formulas/dovecot-formula.git
+[submodule "formulas/saltstack-formulas/keystone"]
+	path = formulas/saltstack-formulas/keystone
+	url = https://github.com/saltstack-formulas/keystone-formula.git
+[submodule "formulas/saltstack-formulas/eramba"]
+	path = formulas/saltstack-formulas/eramba
+	url = https://github.com/saltstack-formulas/eramba-formula.git
+[submodule "formulas/saltstack-formulas/aptly"]
+	path = formulas/saltstack-formulas/aptly
+	url = https://github.com/saltstack-formulas/aptly-formula.git
+[submodule "formulas/saltstack-formulas/git-annex"]
+	path = formulas/saltstack-formulas/git-annex
+	url = https://github.com/saltstack-formulas/git-annex-formula.git
+[submodule "formulas/saltstack-formulas/icinga2"]
+	path = formulas/saltstack-formulas/icinga2
+	url = https://github.com/saltstack-formulas/icinga2-formula.git
+[submodule "formulas/saltstack-formulas/collectd"]
+	path = formulas/saltstack-formulas/collectd
+	url = https://github.com/saltstack-formulas/collectd-formula.git
+[submodule "formulas/saltstack-formulas/logstash"]
+	path = formulas/saltstack-formulas/logstash
+	url = https://github.com/saltstack-formulas/logstash-formula.git
+[submodule "formulas/saltstack-formulas/influxdb"]
+	path = formulas/saltstack-formulas/influxdb
+	url = https://github.com/saltstack-formulas/influxdb-formula.git
+[submodule "formulas/saltstack-formulas/plone"]
+	path = formulas/saltstack-formulas/plone
+	url = https://github.com/saltstack-formulas/plone-formula.git
+[submodule "formulas/saltstack-formulas/logstash_forwarder"]
+	path = formulas/saltstack-formulas/logstash_forwarder
+	url = https://github.com/saltstack-formulas/logstash_forwarder-formula.git
+[submodule "formulas/saltstack-formulas/syslog-ng"]
+	path = formulas/saltstack-formulas/syslog-ng
+	url = https://github.com/saltstack-formulas/syslog-ng-formula.git
+[submodule "formulas/saltstack-formulas/rsyslog"]
+	path = formulas/saltstack-formulas/rsyslog
+	url = https://github.com/saltstack-formulas/rsyslog-formula.git
+[submodule "formulas/saltstack-formulas/zfs"]
+	path = formulas/saltstack-formulas/zfs
+	url = https://github.com/saltstack-formulas/zfs-formula.git
+[submodule "formulas/saltstack-formulas/couchdb"]
+	path = formulas/saltstack-formulas/couchdb
+	url = https://github.com/saltstack-formulas/couchdb-formula.git
+[submodule "formulas/saltstack-formulas/reverse-grains"]
+	path = formulas/saltstack-formulas/reverse-grains
+	url = https://github.com/saltstack-formulas/reverse-grains-formula.git
+[submodule "formulas/saltstack-formulas/reverse-users"]
+	path = formulas/saltstack-formulas/reverse-users
+	url = https://github.com/saltstack-formulas/reverse-users-formula.git
+[submodule "formulas/saltstack-formulas/snmp"]
+	path = formulas/saltstack-formulas/snmp
+	url = https://github.com/saltstack-formulas/snmp-formula.git
+[submodule "formulas/saltstack-formulas/tinyproxy"]
+	path = formulas/saltstack-formulas/tinyproxy
+	url = https://github.com/saltstack-formulas/tinyproxy-formula.git
+[submodule "formulas/saltstack-formulas/nfs"]
+	path = formulas/saltstack-formulas/nfs
+	url = https://github.com/saltstack-formulas/nfs-formula.git
+[submodule "formulas/saltstack-formulas/vmbuilder"]
+	path = formulas/saltstack-formulas/vmbuilder
+	url = https://github.com/saltstack-formulas/vmbuilder-formula.git
+[submodule "formulas/saltstack-formulas/flussonic"]
+	path = formulas/saltstack-formulas/flussonic
+	url = https://github.com/saltstack-formulas/flussonic-formula.git
+[submodule "formulas/saltstack-formulas/sensu"]
+	path = formulas/saltstack-formulas/sensu
+	url = https://github.com/saltstack-formulas/sensu-formula.git
+[submodule "formulas/saltstack-formulas/gitolite"]
+	path = formulas/saltstack-formulas/gitolite
+	url = https://github.com/saltstack-formulas/gitolite-formula.git
+[submodule "formulas/saltstack-formulas/mailcatcher"]
+	path = formulas/saltstack-formulas/mailcatcher
+	url = https://github.com/saltstack-formulas/mailcatcher-formula.git
+[submodule "formulas/saltstack-formulas/splunkforwarder"]
+	path = formulas/saltstack-formulas/splunkforwarder
+	url = https://github.com/saltstack-formulas/splunkforwarder-formula.git
+[submodule "formulas/saltstack-formulas/vagrant-dev-vm-reactor"]
+	path = formulas/saltstacks/vagrant-dev-vm-reactor
+	url = https://github.com/saltstack-formulas/vagrant-dev-vm-reactor.git
+[submodule "formulas/saltstack-formulas/logrotate"]
+	path = formulas/saltstack-formulas/logrotate
+	url = https://github.com/saltstack-formulas/logrotate-formula.git
+[submodule "formulas/saltstack-formulas/mediawiki"]
+	path = formulas/saltstack-formulas/mediawiki
+	url = https://github.com/saltstack-formulas/mediawiki-formula.git
+[submodule "formulas/saltstack-formulas/wordpress"]
+	path = formulas/saltstack-formulas/wordpress
+	url = https://github.com/saltstack-formulas/wordpress-formula.git
+[submodule "formulas/saltstack-formulas/debootstrap"]
+	path = formulas/saltstack-formulas/debootstrap
+	url = https://github.com/saltstack-formulas/debootstrap-formula.git
+[submodule "formulas/saltstacks/ec2-autoscale-reactor"]
+	path = formulas/saltstacks/ec2-autoscale-reactor
+	url = https://github.com/saltstack-formulas/ec2-autoscale-reactor.git
+[submodule "formulas/saltstacks/salt-cloud-reactor"]
+	path = formulas/saltstacks/salt-cloud-reactor
+	url = https://github.com/saltstack-formulas/salt-cloud-reactor.git
+[submodule "formulas/saltstacks/vagrant-dev-vm-reactor"]
+	path = formulas/saltstacks/vagrant-dev-vm-reactor
+	url = https://github.com/saltstack-formulas/vagrant-dev-vm-reactor.git
+[submodule "brutasse"]
+	path = formulas/brutasse
+	url = https://github.com/brutasse/states.git
+[submodule "SS-Archive"]
+	path = formulas/SS-Archive
+	url = https://github.com/SS-archive/salt-states.git
+[submodule "salt-states"]
+	path = formulas/salt-states
+	url = https://github.com/ConsumerAffairs/salt-states.git
+[submodule "ConsumerAffairs"]
+	path = formulas/ConsumerAffairs
+	url = https://github.com/ConsumerAffairs/salt-states.git
