@@ -4,9 +4,6 @@
 [submodule "state-examples/SS-Archive"]
 	path = state-examples/SS-Archive
 	url = https://github.com/SS-archive/salt-states.git
-[submodule "state-examples/salt-states"]
-	path = state-examples/salt-states
-	url = https://github.com/ConsumerAffairs/salt-states.git
 [submodule "state-examples/ConsumerAffairs"]
 	path = state-examples/ConsumerAffairs
 	url = https://github.com/ConsumerAffairs/salt-states.git
