@@ -658,3 +658,6 @@
 [submodule "ConsumerAffairs"]
 	path = formulas/ConsumerAffairs
 	url = https://github.com/ConsumerAffairs/salt-states.git
+[submodule "formulas/viq/gitlab"]
+	path = formulas/viq/gitlab
+	url = https://github.com/viq/gitlab-formula/
