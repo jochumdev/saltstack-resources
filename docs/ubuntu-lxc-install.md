@@ -83,4 +83,4 @@ Allow lxd to create machines witch use the ```lxcbr0``` interface
 
     
 ### Now create your ready to create your first base image see this Howto: 
-[Prepare a minimal lxc image for salt](doc/ubuntu-lxc-image.md)
+[Prepare a minimal lxc image for salt](docs/ubuntu-lxc-image.md)
