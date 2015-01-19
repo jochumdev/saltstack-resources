@@ -670,3 +670,6 @@
 [submodule "formulas/moreda/reposerver"]
 	path = formulas/moreda/reposerver
 	url = https://github.com/moreda/reposerver-saltstack-formula.git
+[submodule "formulas/jahkeup/quagga"]
+	path = formulas/jahkeup/quagga
+	url = https://github.com/jahkeup/salt-quagga.git

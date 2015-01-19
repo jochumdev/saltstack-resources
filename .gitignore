@@ -1,0 +1,4 @@
+# Sublime
+*.sublime-workspace
+
+salt-source/
