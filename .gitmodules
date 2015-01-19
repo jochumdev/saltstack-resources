@@ -661,3 +661,12 @@
 [submodule "formulas/viq/gitlab"]
 	path = formulas/viq/gitlab
 	url = https://github.com/viq/gitlab-formula/
+[submodule "formulas/moreda/shorewall"]
+	path = formulas/moreda/shorewall
+	url = https://github.com/moreda/shorewall-saltstack-formula.git
+[submodule "formulas/moreda/formulas-set"]
+	path = formulas/moreda/formulas-set
+	url = https://github.com/moreda/saltstack-formulas-set.git
+[submodule "formulas/moreda/reposerver"]
+	path = formulas/moreda/reposerver
+	url = https://github.com/moreda/reposerver-saltstack-formula.git
