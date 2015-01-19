@@ -37,7 +37,7 @@ Usefull saltstack links:
 
 Contributing:
 ---
-Clone this repo and create add a pull request, i'll happly accept anything related to saltstack, make sure you accept the CC0 license below.
+Clone this repo and make a pull request, i'll accept anything related to saltstack, just make sure you accept the CC0 license below.
 
 LICENSE:
 ---
