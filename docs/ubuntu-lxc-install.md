@@ -31,7 +31,7 @@ Then **update grub**:
 
 Install LXC from the the *daily* ppa
 ---
-I use the *daily* ppa for the latest feature on my testing laptop.
+I use the *daily* ppa for the latest lxc-features here on my testing laptop.
 
     $ sudo add-apt-repository -y ppa:ubuntu-lxc/daily
     $ sudo apt-get update
