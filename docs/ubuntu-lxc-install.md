@@ -2,7 +2,7 @@
 
 This howto is based on: [LXC 1.0: Unprivileged containers [7/10]](https://www.stgraber.org/2014/01/17/lxc-1-0-unprivileged-containers/)
 
-I started to play around with [LXD (pronounced lex-dee)](https://github.com/lxc/lxd) but its far from beeing usable IMHO thats why my lxc **unpriviliged** user is called lxd.
+I started to play around with [LXD (pronounced lex-dee)](https://github.com/lxc/lxd) but its not usable IMHO yet, thats why my lxc **unpriviliged** user is called lxd.
 
 Replace **lxd** with any other user, maybe ```yours```?
 
@@ -53,7 +53,7 @@ This is my **/etc/fstab** entry:
 
     /dev/mapper/root                               /var/lib/lxd     btrfs    subvol=@lxd,compress=lzo,recovery,noatime,user_subvol_rm_allowed 0    0
     
-My **full /etc/fstab**:
+My **full** /etc/fstab:
 
     # /etc/fstab: static file system information.
     #
@@ -102,16 +102,46 @@ A valid shell so i can "ssh lxd@localhost", see this [Permission denied](https:/
 
 **Install openssh-server so you can ```$ ssh lxd@localhost```**
 
+Again see this see this [Permission denied](https://www.stgraber.org/2014/01/17/lxc-1-0-unprivileged-containers/#comment-183371) bug, i got into.
+
     $ sudo apt-get -y install openssh-server
     
-**and copy your key**
+**and** copy your public key
 
 
     $ sudo mkdir /var/lib/lxd/.ssh/
     $ sudo cp $HOME/.ssh/id_ecdsa.pub /var/lib/lxd/.ssh/authorized_keys
     $ sudo chown -R lxd:lxd /var/lib/lxd/.ssh/
+    
+**Set the domain for your LXC Machines**
 
-**Allow lxd to create machines witch use the ```lxcbr0``` interface**
+This is from [seminar.io](http://seminar.io/2014/07/27/dns-resolution-for-lxc-in-ubuntu-trusty/)
+
+To supply all your LXC machines the same Domainname set ```LXC_DOMAIN``` in ```/etc/default/lxc-net```
+
+    $ gksudo gedit /etc/default/lxc-net
+  
+Uncomment ```LXC_DOMAIN="lxc"``` **and** change ```lxc``` to something else **if** you want another domain for your hosts than ```lxc```.
+
+**or** use sed UNTESTED:
+
+    $ sudo sed -i -e's|# LXC_DOMAIN="lxc"|LXC_DOMAIN="lxc.example.lan"|' /etc/default/lxc-net
+  
+To have that domain on your computer you need to **change** the NetworkManager **dnsmasq**
+
+    $ echo 'server=/lxc.example.lan/10.0.3.1' | sudo tee -a /etc/NetworkManager/dnsmasq.d/lxc.conf
+  
+This will redirect DNS queries for ```*.lxc.example.lan``` hosts to the ```dnsmasq``` instance running on 10.0.3.1 that manage DHCP and DNS for containers.
+
+**Now** restart lxc-net and NetworkManager
+
+    $ sudo service lxc-net stop
+    $ sudo service lxc-net start
+    $ sudo service network-manager restart
+  
+For the ```lxc-net``` service you can't use the ```restart``` command, you must use the ```stop/start``` commands to reload the configuration.
+
+**Allow the unprivileged ```lxd``` user to create machines witch use the ```lxcbr0``` interface**
 
     $ echo 'lxd veth lxcbr0 100'| sudo tee -a /etc/lxc/lxc-usernet 1>/dev/null
     $ sudo service lxc restart
