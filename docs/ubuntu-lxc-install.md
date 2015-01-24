@@ -41,7 +41,7 @@ I use the *daily* ppa for the latest lxc-features here on my testing laptop.
     $ sudo apt-get update
     $ sudo apt-get -y install lxc cgmanager uidmap lxc-templates
     
-[LXCFS](https://linuxcontainers.org/lxcfs/introduction/ seems to be unstable here, remove it:
+[LXCFS](https://linuxcontainers.org/lxcfs/introduction/) seems to be unstable here, remove it:
 
     $ sudo apt-get -y purge lxcfs
     
