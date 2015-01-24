@@ -27,7 +27,11 @@ Replace GRUB_CMDLINE_LIINUX_DEFAULT="quiet splash" with:
 
 Then **update grub**:
 
-    $ update-grub
+    $ sudo update-grub
+   
+And **reboot**:
+    
+    $ sudo reboot
 
 Install LXC from the the *daily* ppa
 ---
@@ -36,14 +40,16 @@ I use the *daily* ppa for the latest lxc-features here on my testing laptop.
     $ sudo add-apt-repository -y ppa:ubuntu-lxc/daily
     $ sudo apt-get update
     $ sudo apt-get -y install lxc cgmanager uidmap lxc-templates
+    
+[LXCFS](https://linuxcontainers.org/lxcfs/introduction/ seems to be unstable here, remove it:
 
-Create the user **lxd** and give him the rights to execute lxc containers
+    $ sudo apt-get -y purge lxcfs
+
+Create the user **lxd**
 ---
 A valid shell so i can "ssh lxd@localhost", see this [Permission denied](https://www.stgraber.org/2014/01/17/lxc-1-0-unprivileged-containers/#comment-183371)
 
-    $ sudo useradd -r -d /var/lib/lxd -s /bin/bash lxd 
-    $ sudo usermod -a -G lxd pcdummy
-    
+    $ sudo useradd -r -d /var/lib/lxd -s /bin/bash lxd     
     
 Give lxd 99 uid/gid ranges to map.
 ---
@@ -81,6 +87,13 @@ Allow lxd to create machines witch use the ```lxcbr0``` interface
     $ echo 'lxd veth lxcbr0 100'| sudo tee -a /etc/lxc/lxc-usernet 1>/dev/null
     $ sudo service lxc restart
 
+Usefull commands
+---
+
+  Get CPU, Disk and Memory Usage of your containers
+  
+  $ lxc-top
     
-### Now create your ready to create your first base image see this Howto: 
+Now create your first base image
+---
 [Prepare a minimal lxc image for salt](/docs/ubuntu-lxc-image.md)
