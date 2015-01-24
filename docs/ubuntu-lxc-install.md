@@ -44,8 +44,37 @@ I use the *daily* ppa for the latest lxc-features here on my testing laptop.
 [LXCFS](https://linuxcontainers.org/lxcfs/introduction/ seems to be unstable here, remove it:
 
     $ sudo apt-get -y purge lxcfs
+    
+BRTFS and "unprivileged users"
+---
+You will need the ```user_subvol_rm_allowed``` option, if you use BTRFS like me as mentioned in [issue #210](https://github.com/lxc/lxc/issues/210)
 
-Create the user **lxd**
+This is my **/etc/fstab** entry:
+
+    /dev/mapper/root                               /var/lib/lxd     btrfs    subvol=@lxd,compress=lzo,recovery,noatime,user_subvol_rm_allowed 0    0
+    
+My **full /etc/fstab**:
+
+    # /etc/fstab: static file system information.
+    #
+    # Use 'blkid' to print the universally unique identifier for a
+    # device; this may be used with UUID= as a more robust way to name devices
+    # that works even if disks are added and removed. See fstab(5).
+    #
+    # <file system>                                                         <mount point>   <type>  <options>       <dump>  <pass>
+    /dev/mapper/root                               /                btrfs    subvol=@ubuntu_14.10,compress=lzo,recovery,noatime    0    0
+    /dev/sda1                                      /boot            ext3    defaults    0    0
+    /dev/mapper/root                               /home            btrfs    subvol=@home,compress=lzo,recovery,noatime 0    0
+    /dev/mapper/root                               /opt/mono        btrfs    subvol=@mono,compress=lzo,recovery,noatime 0    0
+    /dev/mapper/root                               /var/lib/lxc     btrfs    subvol=@lxc,compress=lzo,recovery,noatime 0    0
+    /dev/mapper/root                               /var/lib/lxd     btrfs    subvol=@lxd,compress=lzo,recovery,noatime,user_subvol_rm_allowed 0    0
+    /dev/mapper/data                               /data            xfs      noatime,nobootwait     0    0
+    /dev/mapper/swap                               none             swap     defaults,nobootwait    0    0
+    
+    # To modify the btrfs ($ btrfs subvolume create /mnt/btrfs/ or $ copy -ax --reflink=always /mnt/btrfs/@src/. /mnt/btrfs/@dest)
+    /dev/mapper/root                               /mnt/btrfs       btrfs    subvolid=0,compress=lzo,recovery,noatime,noauto 0    0
+
+Create the user ```lxd```
 ---
 A valid shell so i can "ssh lxd@localhost", see this [Permission denied](https://www.stgraber.org/2014/01/17/lxc-1-0-unprivileged-containers/#comment-183371)
 

@@ -48,6 +48,8 @@ Contributing:
 ---
 Clone this repo and make a pull request, i'll accept anything related to saltstack, just make sure you accept the CC0 license below.
 
+Please preview your changes [here](http://tmpvar.com/markdown.html).
+
 LICENSE:
 ---
 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
