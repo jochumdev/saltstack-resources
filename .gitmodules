@@ -508,18 +508,12 @@
 [submodule "formulas/saltstack-formulas/thrift"]
 	path = formulas/saltstack-formulas/thrift
 	url = https://github.com/saltstack-formulas/thrift-formula.git
-[submodule "formulas/saltstack-formulas/ec2-autoscale-reactor"]
-	path = formulas/saltstacks/ec2-autoscale-reactor
-	url = https://github.com/saltstack-formulas/ec2-autoscale-reactor.git
 [submodule "formulas/saltstack-formulas/moosefs"]
 	path = formulas/saltstack-formulas/moosefs
 	url = https://github.com/saltstack-formulas/moosefs-formula.git
 [submodule "formulas/saltstack-formulas/sphinx-doc"]
 	path = formulas/saltstack-formulas/sphinx-doc
 	url = https://github.com/saltstack-formulas/sphinx-doc-formula.git
-[submodule "formulas/saltstack-formulas/salt-cloud-reactor"]
-	path = formulas/saltstacks/salt-cloud-reactor
-	url = https://github.com/saltstack-formulas/salt-cloud-reactor.git
 [submodule "formulas/saltstack-formulas/readthedocs"]
 	path = formulas/saltstack-formulas/readthedocs
 	url = https://github.com/saltstack-formulas/readthedocs-formula.git
@@ -622,9 +616,6 @@
 [submodule "formulas/saltstack-formulas/splunkforwarder"]
 	path = formulas/saltstack-formulas/splunkforwarder
 	url = https://github.com/saltstack-formulas/splunkforwarder-formula.git
-[submodule "formulas/saltstack-formulas/vagrant-dev-vm-reactor"]
-	path = formulas/saltstacks/vagrant-dev-vm-reactor
-	url = https://github.com/saltstack-formulas/vagrant-dev-vm-reactor.git
 [submodule "formulas/saltstack-formulas/logrotate"]
 	path = formulas/saltstack-formulas/logrotate
 	url = https://github.com/saltstack-formulas/logrotate-formula.git
@@ -637,15 +628,6 @@
 [submodule "formulas/saltstack-formulas/debootstrap"]
 	path = formulas/saltstack-formulas/debootstrap
 	url = https://github.com/saltstack-formulas/debootstrap-formula.git
-[submodule "formulas/saltstacks/ec2-autoscale-reactor"]
-	path = formulas/saltstacks/ec2-autoscale-reactor
-	url = https://github.com/saltstack-formulas/ec2-autoscale-reactor.git
-[submodule "formulas/saltstacks/salt-cloud-reactor"]
-	path = formulas/saltstacks/salt-cloud-reactor
-	url = https://github.com/saltstack-formulas/salt-cloud-reactor.git
-[submodule "formulas/saltstacks/vagrant-dev-vm-reactor"]
-	path = formulas/saltstacks/vagrant-dev-vm-reactor
-	url = https://github.com/saltstack-formulas/vagrant-dev-vm-reactor.git
 [submodule "brutasse"]
 	path = formulas/brutasse
 	url = https://github.com/brutasse/states.git
@@ -673,3 +655,12 @@
 [submodule "formulas/jahkeup/quagga"]
 	path = formulas/jahkeup/quagga
 	url = https://github.com/jahkeup/salt-quagga.git
+[submodule "reactor/saltstack-formulas/ec2-autoscale"]
+	path = reactor/saltstack-formulas/ec2-autoscale
+	url = https://github.com/saltstack-formulas/ec2-autoscale-reactor.git
+[submodule "reactor/saltstack-formulas/salt-cloud"]
+	path = reactor/saltstack-formulas/salt-cloud
+	url = https://github.com/saltstack-formulas/salt-cloud-reactor.git
+[submodule "reactor/saltstack-formulas/vagrant-dev-vm"]
+	path = reactor/saltstack-formulas/vagrant-dev-vm
+	url = https://github.com/saltstack-formulas/vagrant-dev-vm-reactor.git
