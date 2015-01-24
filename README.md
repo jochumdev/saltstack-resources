@@ -41,7 +41,8 @@ Usefull saltstack links:
 
 ### Advanced
 
-  * [The Forman Module](http://docs.saltstack.com/en/latest/ref/pillar/all/salt.pillar.foreman.html) - You want a UI for your mates? Look at [The Forman](http://theforeman.org/) - [The official guide for that](https://github.com/theforeman/foreman_salt/wiki)
+  * [The Foreman UI](http://docs.saltstack.com/en/latest/ref/pillar/all/salt.pillar.foreman.html) - You want a UI for your mates? Look at [The Foreman](http://theforeman.org/) - [The official guide for that](https://github.com/theforeman/foreman_salt/wiki)
+  * [Obdi UI](https://github.com/mclarkson/obdi) - Exclusively made for Saltstack. See this [intro](http://blogger.smorg.co.uk/2015/01/obdi-in-pictures.html)
   * [Salt contrib](https://github.com/saltstack/salt-contrib) - 3rd party stuff
 
 Contributing:
