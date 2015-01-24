@@ -28,6 +28,7 @@ Usefull saltstack links:
   * [An intro to Salt](http://dev.mlsdigital.net/posts/IntroToSaltStack/) - Be The Master Of Your Minions (An Introduction To SaltStack)
 
 ### State Developement
+  * [Very informative post about state development](http://dev.mlsdigital.net/posts/SaltStackBeyondJinjaStates/) - Taking SaltStack to The Next Level With Pillars and Python States
   * [Salts Jinja Doc](http://docs.saltstack.com/en/latest/ref/renderers/all/salt.renderers.jinja.html) - Basic intro.
   * [Jinja Docs](http://jinja.pocoo.org/docs/dev/templates/) - You'll need them when you develop your own sls.
   * [YAML Validator](http://yaml-online-parser.appspot.com/) - Same as above.
@@ -42,7 +43,6 @@ Usefull saltstack links:
 
   * [The Forman Module](http://salt.readthedocs.org/en/latest/salt-modindex.html) - You want a UI for your mates? Look at [The Forman](http://theforeman.org/)
   * [Salt contrib](https://github.com/saltstack/salt-contrib) - 3rd party stuff
-  * [Very informative post about state development](http://dev.mlsdigital.net/posts/SaltStackBeyondJinjaStates/) - Taking SaltStack to The Next Level With Pillars and Python States
 
 Contributing:
 ---
