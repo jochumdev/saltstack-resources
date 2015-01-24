@@ -31,6 +31,7 @@ Usefull saltstack links:
   * [Salts Jinja Doc](http://docs.saltstack.com/en/latest/ref/renderers/all/salt.renderers.jinja.html) - Basic intro.
   * [Jinja Docs](http://jinja.pocoo.org/docs/dev/templates/) - You'll need them when you develop your own sls.
   * [YAML Validator](http://yaml-online-parser.appspot.com/) - Same as above.
+
 ### Cheatsheets
 
   * [Commandline](http://www.xenuser.org/saltstack-cheat-sheet/) - Using salt as "mass executor", get infos and so on.
