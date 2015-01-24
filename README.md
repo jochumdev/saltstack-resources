@@ -12,7 +12,7 @@ I use it to quickly find examples/formulas for my work.
   
 ### Howtos available here
 
-* [Install lxc on Ubuntu](docs/ubuntu-lxc-install.md)
+* [Install lxc on Ubuntu](docs/ubuntu-lxc-install.md) with btrfs :)
 * [Prepare a ubuntu lxc base image](docs/ubuntu-lxc-image.md) for salt.
 
 

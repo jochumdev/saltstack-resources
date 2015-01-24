@@ -6,12 +6,12 @@ I started to play around with [LXD (pronounced lex-dee)](https://github.com/lxc/
 
 Replace **lxd** with any other user, maybe ```yours```?
 
-Install the latest stable lts kernel
----
+**Install the latest stable lts kernel**
+
     $ sudo apt-get -y install linux-image-utopic-lts
     
-Enable "memory swapaccount" [found here](http://www.flockport.com/start/)
----
+**Enable "memory swapaccount" [found here](http://www.flockport.com/start/)**
+
 Edit **/etc/default/grub**
 
     $ gksudo gedit /etc/default/grub
@@ -33,8 +33,8 @@ And **reboot**:
     
     $ sudo reboot
 
-Install LXC from the the *daily* ppa
----
+**Install LXC from the the *daily* ppa**
+
 I use the *daily* ppa for the latest lxc-features here on my testing laptop.
 
     $ sudo add-apt-repository -y ppa:ubuntu-lxc/daily
@@ -45,8 +45,8 @@ I use the *daily* ppa for the latest lxc-features here on my testing laptop.
 
     $ sudo apt-get -y purge lxcfs
     
-BRTFS and "unprivileged users"
----
+**BRTFS and "unprivileged users"**
+
 You will need the ```user_subvol_rm_allowed``` option, if you use BTRFS like me as mentioned in [issue #210](https://github.com/lxc/lxc/issues/210)
 
 This is my **/etc/fstab** entry:
@@ -74,21 +74,21 @@ My **full /etc/fstab**:
     # To modify the btrfs ($ btrfs subvolume create /mnt/btrfs/ or $ copy -ax --reflink=always /mnt/btrfs/@src/. /mnt/btrfs/@dest)
     /dev/mapper/root                               /mnt/btrfs       btrfs    subvolid=0,compress=lzo,recovery,noatime,noauto 0    0
 
-Create the user ```lxd```
----
+**Create the user ```lxd```**
+
 A valid shell so i can "ssh lxd@localhost", see this [Permission denied](https://www.stgraber.org/2014/01/17/lxc-1-0-unprivileged-containers/#comment-183371)
 
     $ sudo useradd -r -d /var/lib/lxd -s /bin/bash lxd     
     
-Give lxd 99 uid/gid ranges to map.
----
+**Give lxd 99 uid/gid ranges to map.**
+
     $ for i in {1..99}; do \
     	sudo usermod --add-subuids ${i}00000-${i}65536 lxd \
     	sudo usermod --add-subgids ${i}00000-${i}65536 lxd \
     done # This takes a while
     
-Create a basic config for that new user
----    
+**Create a basic config for that new user**
+    
     $ sudo mkdir /var/lib/lxd
     $ sudo chown lxd:lxd /var/lib/lxd
     $ sudo sudo -H -u lxd mkdir -p /var/lib/lxd/.config/lxc/
@@ -100,29 +100,29 @@ Create a basic config for that new user
     EOF'
 
 
-Install openssh-server so you can ```$ ssh lxd@localhost```
----
+**Install openssh-server so you can ```$ ssh lxd@localhost```**
+
     $ sudo apt-get -y install openssh-server
     
-and copy your key
----
+**and copy your key**
+
 
     $ sudo mkdir /var/lib/lxd/.ssh/
     $ sudo cp $HOME/.ssh/id_ecdsa.pub /var/lib/lxd/.ssh/authorized_keys
     $ sudo chown -R lxd:lxd /var/lib/lxd/.ssh/
 
-Allow lxd to create machines witch use the ```lxcbr0``` interface
----
+**Allow lxd to create machines witch use the ```lxcbr0``` interface**
+
     $ echo 'lxd veth lxcbr0 100'| sudo tee -a /etc/lxc/lxc-usernet 1>/dev/null
     $ sudo service lxc restart
 
-Usefull commands
----
+**Usefull commands**
+
 
   Get CPU, Disk and Memory Usage of your containers
   
   $ lxc-top
     
-Now create your first base image
----
+**Now create your first base image**
+
 [Prepare a minimal lxc image for salt](/docs/ubuntu-lxc-image.md)
