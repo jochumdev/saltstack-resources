@@ -41,7 +41,7 @@ Usefull saltstack links:
 
 ### Advanced
 
-  * [The Forman Module](http://docs.saltstack.com/en/latest/ref/pillar/all/salt.pillar.foreman.html) - You want a UI for your mates? Look at [The Forman](http://theforeman.org/)
+  * [The Forman Module](http://docs.saltstack.com/en/latest/ref/pillar/all/salt.pillar.foreman.html) - You want a UI for your mates? Look at [The Forman](http://theforeman.org/) - [The official guide for that](https://github.com/theforeman/foreman_salt/wiki)
   * [Salt contrib](https://github.com/saltstack/salt-contrib) - 3rd party stuff
 
 Contributing:
