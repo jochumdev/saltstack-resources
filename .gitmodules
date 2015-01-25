@@ -667,3 +667,6 @@
 [submodule "formulas/aboe76/sysctl"]
 	path = formulas/aboe76/sysctl
 	url = https://github.com/aboe76/sysctl-formula.git
+[submodule "state-examples/akoumjian/django-example"]
+	path = state-examples/akoumjian/django-example
+	url = https://github.com/akoumjian/salt-django-example.git
