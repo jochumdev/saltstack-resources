@@ -82,7 +82,9 @@ replace ```jupiter``` with your own hostname.
 
 **On the Master**
 
-    $ salt-key -A 'jupiter.*'
+    $ salt-key -a 'jupiter.*'
+
+If you have a firewalled development saltmaster you may want to activate [auto_accept](http://docs.saltstack.com/en/latest/ref/configuration/master.html#auto-accept)
     
 **Wanna do it again?**
 
@@ -92,7 +94,7 @@ Destroy the machine (**as lxd@localhost**)
 
 Remove the key on the Master
 
-    $ salt-key -r 'jupiter.*'
+    $ salt-key -d 'jupiter.*'
     
 Clone it again and let the master provision it (**again as lxd@localhost**)
 

@@ -1,5 +1,5 @@
-Unofficial list of saltstack resources and Howtos
----
+## Unofficial list of saltstack resources and Howtos
+
 This repo contains a lot of saltstack **formulas** and **states** as submodules which i've found here on github.
 
 I use it to quickly find examples/formulas for my work.
@@ -14,17 +14,18 @@ I use it to quickly find examples/formulas for my work.
 
     $ ./update-all.sh     # This will take some time!
   
-### Howtos available here
+## Howtos available here
 
 * [Install lxc on Ubuntu](docs/ubuntu-lxc-install.md) with btrfs :)
 * [Prepare a ubuntu lxc base image](docs/ubuntu-lxc-image.md) for salt.
 
 
-Usefull saltstack links:
----
+## Usefull saltstack links:
+
 ### Quickstart
 
   * [Saltstack Intro](http://docs.saltstack.com/en/latest/topics/) - If you don't know what saltstack is :)
+  * [Saltstack Presentations](https://github.com/bechtoldt/presentations) - To get a quick overview about Salt.
   * [Official Walktrough](http://salt.readthedocs.org/en/latest/topics/tutorials/walkthrough.html) - This is the place to get started with salt.
   * [Getting Started with SALTSTACK](https://github.com/benhosmer/getting-started-with-saltstack) - Salt Book by Ben Hosmer (First release September 2014).
   * [Builtin States](http://docs.saltstack.com/en/latest/ref/states/all/) - Full list of builtin state modules.
@@ -65,12 +66,12 @@ Usefull saltstack links:
   * [Hungry Admin](http://hungryadmin.com/)
   * [Love Nyberg](http://jacksoncage.se/)
 
-Contributing:
----
+## Contributing:
+
 Clone this repo and make a pull request, i'll accept anything related to saltstack, just make sure you accept the CC0 license below.
 
 Please preview your changes [here](http://tmpvar.com/markdown.html).
 
-LICENSE:
----
+## LICENSE:
+
 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
