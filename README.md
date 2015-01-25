@@ -38,6 +38,7 @@ Usefull saltstack links:
   * [Salts Jinja Doc](http://docs.saltstack.com/en/latest/ref/renderers/all/salt.renderers.jinja.html) - Basic intro.
   * [Jinja Docs](http://jinja.pocoo.org/docs/dev/templates/) - You'll need them when you develop your own sls.
   * [YAML Validator](http://yaml-online-parser.appspot.com/) - Same as above.
+  * [Kitchen Salt](https://github.com/simonmcc/kitchen-salt) - A Test Kitchen Provisioner for Salt (See this [Intro](https://github.com/simonmcc/kitchen-salt/blob/master/INTRODUCTION.md)).
 
 ### Cheatsheets
 
@@ -52,13 +53,17 @@ Usefull saltstack links:
   * [Halite](https://github.com/saltstack/halite) - Halite is a Salt GUI. Status is pre-alpha.
 
 ### Advanced
+
   * [Salt contrib](https://github.com/saltstack/salt-contrib) - 3rd party stuff
 
 ### Blogroll
+
   * [Official Salstack blog](http://www.saltstack.com/salt-blog/)
   * [The creator of Obdi](http://blogger.smorg.co.uk)
   * [Pythian](http://www.pythian.com/blog/tag/configuration-management/)
   * [Ryan D Lane](http://ryandlane.com/blog/)
+  * [Hungry Admin](http://hungryadmin.com/)
+  * [Love Nyberg](http://jacksoncage.se/)
 
 Contributing:
 ---

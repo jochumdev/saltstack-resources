@@ -1,7 +1,7 @@
 #!/bin/sh
 # From: https://stackoverflow.com/questions/11258737/restore-git-submodules-from-gitmodules
 
-set -e
+set -x
 
 git config -f .gitmodules --get-regexp '^submodule\..*\.path$' |
     while read path_key path
