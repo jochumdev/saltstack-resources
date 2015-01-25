@@ -20,6 +20,7 @@ Usefull saltstack links:
 ---
 ### Quickstart
 
+  * [Saltstack Intro](http://docs.saltstack.com/en/latest/topics/) - If you don't know what saltstack is :)
   * [Official Walktrough](http://salt.readthedocs.org/en/latest/topics/tutorials/walkthrough.html) - This is the place to get started with salt.
   * [Builtin States](http://docs.saltstack.com/en/latest/ref/states/all/) - Full list of builtin state modules.
   * [Git Fileserver](http://salt.readthedocs.org/en/latest/topics/tutorials/gitfs.html#tutorial-gitfs) - Very usefull when you want to reuse code from others, as ubuntu user also have a look at this ppa [pygit2](https://launchpad.net/~dennis/+archive/ubuntu/python)

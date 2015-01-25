@@ -664,3 +664,6 @@
 [submodule "reactor/saltstack-formulas/vagrant-dev-vm"]
 	path = reactor/saltstack-formulas/vagrant-dev-vm
 	url = https://github.com/saltstack-formulas/vagrant-dev-vm-reactor.git
+[submodule "formulas/aboe76/sysctl"]
+	path = formulas/aboe76/sysctl
+	url = https://github.com/aboe76/sysctl-formula.git
