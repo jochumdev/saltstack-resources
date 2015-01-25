@@ -26,7 +26,7 @@ Usefull saltstack links:
 
   * [Saltstack Intro](http://docs.saltstack.com/en/latest/topics/) - If you don't know what saltstack is :)
   * [Official Walktrough](http://salt.readthedocs.org/en/latest/topics/tutorials/walkthrough.html) - This is the place to get started with salt.
-  * [Getting Started with SALTSTACK](https://github.com/benhosmer/getting-started-with-saltstack) - Salt Book by Ben Hosmer (First release September 2014
+  * [Getting Started with SALTSTACK](https://github.com/benhosmer/getting-started-with-saltstack) - Salt Book by Ben Hosmer (First release September 2014).
   * [Builtin States](http://docs.saltstack.com/en/latest/ref/states/all/) - Full list of builtin state modules.
   * [Git Fileserver](http://salt.readthedocs.org/en/latest/topics/tutorials/gitfs.html#tutorial-gitfs) - Very usefull when you want to reuse code from others, as ubuntu user also have a look at this ppa [pygit2](https://launchpad.net/~dennis/+archive/ubuntu/python)
   * [Basics about Formulas](http://salt.readthedocs.org/en/latest/topics/development/conventions/formulas.html) - See how easy you can get your OS managed with formulas from others.
@@ -53,6 +53,12 @@ Usefull saltstack links:
 
 ### Advanced
   * [Salt contrib](https://github.com/saltstack/salt-contrib) - 3rd party stuff
+
+### Blogroll
+  * [Official Salstack blog](http://www.saltstack.com/salt-blog/)
+  * [The creator of Obdi](http://blogger.smorg.co.uk)
+  * [Pythian](http://www.pythian.com/blog/tag/configuration-management/)
+  * [Ryan D Lane](http://ryandlane.com/blog/)
 
 Contributing:
 ---
