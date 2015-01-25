@@ -8,7 +8,11 @@ I use it to quickly find examples/formulas for my work.
 
     $ git clone https://github.com/pcdummy/saltstack-resources.git
     $ cd saltstack-resources/
-    $ git submodule update --init --recursive
+    $ git submodule update --init --recursive   # This will take some time!
+  
+### Update it
+
+    $ ./update-all.sh     # This will take some time!
   
 ### Howtos available here
 
@@ -40,10 +44,13 @@ Usefull saltstack links:
   * [State development](https://github.com/saltstack/salt/wiki/Cheat-Sheet) - Some basic's about states.
   * [Lots of useful infos condensed on single page](https://gist.github.com/elmariofredo/8964467) - General purpose
 
-### Advanced
+### GUI
 
-  * [The Foreman UI](http://docs.saltstack.com/en/latest/ref/pillar/all/salt.pillar.foreman.html) - You want a UI for your mates? Look at [The Foreman](http://theforeman.org/) - [The official guide for that](https://github.com/theforeman/foreman_salt/wiki)
-  * [Obdi UI](https://github.com/mclarkson/obdi) - Exclusively made for Saltstack. See this [intro](http://blogger.smorg.co.uk/2015/01/obdi-in-pictures.html)
+  * [The Foreman](http://docs.saltstack.com/en/latest/ref/pillar/all/salt.pillar.foreman.html) - You want a GUI for your mates? Look at [The Foreman](http://theforeman.org/) - [The official guide for that](https://github.com/theforeman/foreman_salt/wiki)
+  * [Obdi](https://github.com/mclarkson/obdi) - Exclusively made for Saltstack. See this [intro](http://blogger.smorg.co.uk/2015/01/obdi-in-pictures.html)
+  * [Halite](https://github.com/saltstack/halite) - Halite is a Salt GUI. Status is pre-alpha.
+
+### Advanced
   * [Salt contrib](https://github.com/saltstack/salt-contrib) - 3rd party stuff
 
 Contributing:
