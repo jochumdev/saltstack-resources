@@ -613,15 +613,6 @@
 [submodule "formulas/saltstack-formulas/debootstrap-formula"]
   path = formulas/saltstack-formulas/debootstrap-formula
   url = https://github.com/saltstack-formulas/debootstrap-formula.git
-[submodule "formulas/brutasse/states"]
-  path = formulas/brutasse/states
-  url = https://github.com/brutasse/states.git
-[submodule "formulas/SS-archive/salt-states"]
-  path = formulas/SS-archive/salt-states
-  url = https://github.com/SS-archive/salt-states.git
-[submodule "formulas/ConsumerAffairs/salt-states"]
-  path = formulas/ConsumerAffairs/salt-states
-  url = https://github.com/ConsumerAffairs/salt-states.git
 [submodule "formulas/viq/gitlab-formula"]
   path = formulas/viq/gitlab-formula
   url = https://github.com/viq/gitlab-formula.git
