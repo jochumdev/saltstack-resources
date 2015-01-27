@@ -669,3 +669,6 @@
 [submodule "state-examples/khrisrichardson/salt-states"]
   path = state-examples/khrisrichardson/salt-states
   url = https://github.com/khrisrichardson/salt-states.git
+[submodule "formulas/jcftang/cobbler-formula"]
+	path = formulas/jcftang/cobbler-formula
+	url = https://github.com/jcftang/cobbler-formula.git

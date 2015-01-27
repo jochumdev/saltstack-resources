@@ -1,5 +1,7 @@
 ### HOWTO - Install lxc and prepare it for a unprivileged user.
 
+Very good to read [Official LXC 1.0 Howtos](https://www.stgraber.org/2013/12/20/lxc-1-0-blog-post-series/)!
+
 This howto is based on: [LXC 1.0: Unprivileged containers [7/10]](https://www.stgraber.org/2014/01/17/lxc-1-0-unprivileged-containers/)
 
 I started to play around with [LXD (pronounced lex-dee)](https://github.com/lxc/lxd) but its not usable IMHO yet, thats why my lxc **unpriviliged** user is called lxd.

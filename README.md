@@ -51,11 +51,19 @@ I use it to quickly find examples/formulas for my work.
 
   * [The Foreman](http://docs.saltstack.com/en/latest/ref/pillar/all/salt.pillar.foreman.html) - You want a GUI for your mates? Look at [The Foreman](http://theforeman.org/) - [The official guide for that](https://github.com/theforeman/foreman_salt/wiki)
   * [Obdi](https://github.com/mclarkson/obdi) - Exclusively made for Saltstack. See this [intro](http://blogger.smorg.co.uk/2015/01/obdi-in-pictures.html)
+  * [Saltpad](https://github.com/tinyclues/saltpad) - SaltPad is a GUI and CLI tool to manage SaltStack deployments + orchestration. It's still very young and it's should be considered as Alpha.
   * [Halite](https://github.com/saltstack/halite) - Halite is a Salt GUI. Status is pre-alpha.
 
 ### Advanced
 
   * [Salt contrib](https://github.com/saltstack/salt-contrib) - 3rd party stuff
+
+### Community
+
+  * [Offical List](http://www.saltstack.com/community/)
+  * [IRC](https://webchat.freenode.net/?channels=salt) #salt on freenode
+  * [English ML](https://groups.google.com/forum/#!forum/salt-users)
+  * [German ML](https://groups.google.com/forum/#!forum/salt-users-de)
 
 ### Blogroll
 
