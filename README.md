@@ -65,6 +65,8 @@ I use it to quickly find examples/formulas for my work.
   * [English Mailinglist](https://groups.google.com/forum/#!forum/salt-users)
   * [Salt Announce Mailinglist](https://groups.google.com/forum/#!forum/salt-announce)
 
+### German Community
+
   * [German Chat](https://webchat.freenode.net/?channels=salt-de) #salt-de on freenode
   * [German Mailinglist](https://groups.google.com/forum/#!forum/salt-users-de)
 
