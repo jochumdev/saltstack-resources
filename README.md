@@ -62,8 +62,10 @@ I use it to quickly find examples/formulas for my work.
 
   * [Offical List](http://www.saltstack.com/community/)
   * [English Chat](https://webchat.freenode.net/?channels=salt) #salt on freenode
-  * [German Chat](https://webchat.freenode.net/?channels=salt-de) #salt-de on freenode
   * [English Mailinglist](https://groups.google.com/forum/#!forum/salt-users)
+  * [Salt Announce Mailinglist](https://groups.google.com/forum/#!forum/salt-announce)
+
+  * [German Chat](https://webchat.freenode.net/?channels=salt-de) #salt-de on freenode
   * [German Mailinglist](https://groups.google.com/forum/#!forum/salt-users-de)
 
 ### Blogroll
@@ -89,6 +91,8 @@ I use it to quickly find examples/formulas for my work.
 Clone this repo and make a pull request, i'll accept anything related to saltstack, just make sure you accept the CC0 license below.
 
 Please preview your changes [here](http://tmpvar.com/markdown.html).
+
+I'm using [ReText](http://sourceforge.net/p/retext/home/ReText/) as Markdown editor.
 
 ## LICENSE:
 
