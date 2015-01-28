@@ -672,3 +672,6 @@
 [submodule "formulas/jcftang/cobbler-formula"]
 	path = formulas/jcftang/cobbler-formula
 	url = https://github.com/jcftang/cobbler-formula.git
+[submodule "state-examples/GoogleCloudPlatform/compute-video-demo-salt"]
+	path = state-examples/GoogleCloudPlatform/compute-video-demo-salt
+	url = https://github.com/GoogleCloudPlatform/compute-video-demo-salt
