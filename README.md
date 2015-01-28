@@ -73,6 +73,7 @@ I use it to quickly find examples/formulas for my work.
   * [Ryan D Lane](http://ryandlane.com/blog/)
   * [Hungry Admin](http://hungryadmin.com/)
   * [Love Nyberg](http://jacksoncage.se/)
+  * [C. R. Oldham](https://medium.com/@cro/)
 
 ## Contributing:
 
