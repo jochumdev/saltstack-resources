@@ -61,19 +61,28 @@ I use it to quickly find examples/formulas for my work.
 ### Community
 
   * [Offical List](http://www.saltstack.com/community/)
-  * [IRC](https://webchat.freenode.net/?channels=salt) #salt on freenode
-  * [English ML](https://groups.google.com/forum/#!forum/salt-users)
-  * [German ML](https://groups.google.com/forum/#!forum/salt-users-de)
+  * [English Chat](https://webchat.freenode.net/?channels=salt) #salt on freenode
+  * [German Chat](https://webchat.freenode.net/?channels=salt-de) #salt-de on freenode
+  * [English Mailinglist](https://groups.google.com/forum/#!forum/salt-users)
+  * [German Mailinglist](https://groups.google.com/forum/#!forum/salt-users-de)
 
 ### Blogroll
 
-  * [Official Salstack blog](http://www.saltstack.com/salt-blog/)
+  * [Official Saltstack blog](http://www.saltstack.com/salt-blog/)
   * [The creator of Obdi](http://blogger.smorg.co.uk)
   * [Pythian](http://www.pythian.com/blog/tag/configuration-management/)
   * [Ryan D Lane](http://ryandlane.com/blog/)
   * [Hungry Admin](http://hungryadmin.com/)
   * [Love Nyberg](http://jacksoncage.se/)
   * [C. R. Oldham](https://medium.com/@cro/)
+
+### Videos
+
+  * [Offical Saltstack Youtube](https://www.youtube.com/user/SaltStack)
+
+### Salt related
+
+  * [Magni - Managed Peer-to-Peer](https://github.com/markuskramerIgitt/Magni)
 
 ## Contributing:
 
