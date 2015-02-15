@@ -678,3 +678,18 @@
 [submodule "formulas/0xf10e/openvswitch-formula"]
 	path = formulas/0xf10e/openvswitch-formula
 	url = https://github.com/0xf10e/openvswitch-formula.git
+[submodule "formulas/seegno/iojs-formula"]
+	path = formulas/seegno/iojs-formula
+	url = https://github.com/seegno/iojs-formula.git
+[submodule "formulas/saltstack-formulas/opsmatic-formula"]
+	path = formulas/saltstack-formulas/opsmatic-formula
+	url = https://github.com/saltstack-formulas/opsmatic-formula.git
+[submodule "formulas/saltstack-formulas/haveged-formula"]
+	path = formulas/saltstack-formulas/haveged-formula
+	url = https://github.com/saltstack-formulas/haveged-formula.git
+[submodule "formulas/aboe76/haveged-formula"]
+	path = formulas/aboe76/haveged-formula
+	url = https://github.com/aboe76/haveged-formula.git
+[submodule "formulas/toppur/opsmatic-formula"]
+	path = formulas/toppur/opsmatic-formula
+	url = https://github.com/toppur/opsmatic-formula.git
