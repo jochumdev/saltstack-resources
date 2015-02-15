@@ -9,11 +9,11 @@ I use it to quickly find examples/formulas for my work.
     $ git clone https://github.com/pcdummy/saltstack-resources.git
     $ cd saltstack-resources/
     $ git submodule update --init --recursive   # This will take some time!
-  
+
 ### Update it
 
     $ ./update-all.sh     # This will take some time!
-  
+
 ## Howtos available here
 
 * [Install lxc on Ubuntu](docs/ubuntu-lxc-install.md) with btrfs :)
@@ -90,11 +90,11 @@ I use it to quickly find examples/formulas for my work.
 
 ## Contributing:
 
-Clone this repo and make a pull request, i'll accept anything related to saltstack, just make sure you accept the CC0 license below.
+Clone this repo and make a pull request, I'll accept anything related to SaltStack, just make sure you accept the CC0 license below.
 
-Please preview your changes [here](http://tmpvar.com/markdown.html).
+Edit/preview your changes [here](https://georgeosddev.github.io/markdown-edit/).
 
-I'm using [ReText](http://sourceforge.net/p/retext/home/ReText/) as Markdown editor.
+I'm using [Atom.io](https://atom.io/) with [markdown-preview](https://atom.io/packages/markdown-preview) as markdown editor.
 
 ## LICENSE:
 
