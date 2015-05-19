@@ -499,18 +499,12 @@
 [submodule "formulas/saltstack-formulas/sphinx-doc-formula"]
   path = formulas/saltstack-formulas/sphinx-doc-formula
   url = https://github.com/saltstack-formulas/sphinx-doc-formula.git
-[submodule "formulas/saltstack-formulas/readthedocs-formula"]
-  path = formulas/saltstack-formulas/readthedocs-formula
-  url = https://github.com/saltstack-formulas/readthedocs-formula.git
 [submodule "formulas/saltstack-formulas/cherrypy-formula"]
   path = formulas/saltstack-formulas/cherrypy-formula
   url = https://github.com/saltstack-formulas/cherrypy-formula.git
 [submodule "formulas/saltstack-formulas/beaver-formula"]
   path = formulas/saltstack-formulas/beaver-formula
   url = https://github.com/saltstack-formulas/beaver-formula.git
-[submodule "formulas/saltstack-formulas/riemann-formula"]
-  path = formulas/saltstack-formulas/riemann-formula
-  url = https://github.com/saltstack-formulas/riemann-formula.git
 [submodule "formulas/saltstack-formulas/nexus-formula"]
   path = formulas/saltstack-formulas/nexus-formula
   url = https://github.com/saltstack-formulas/nexus-formula.git
@@ -628,10 +622,6 @@
 [submodule "formulas/jahkeup/salt-quagga"]
   path = formulas/jahkeup/salt-quagga
   url = https://github.com/jahkeup/salt-quagga.git
-[submodule "formulas/aboe76/sysctl-formula"]
-  path = formulas/aboe76/sysctl-formula
-  url = https://github.com/aboe76/sysctl-formula.git
-
 [submodule "reactor/saltstack-formulas/ec2-autoscale-reactor"]
   path = reactor/saltstack-formulas/ec2-autoscale-reactor
   url = https://github.com/saltstack-formulas/ec2-autoscale-reactor.git
@@ -687,9 +677,6 @@
 [submodule "formulas/saltstack-formulas/haveged-formula"]
 	path = formulas/saltstack-formulas/haveged-formula
 	url = https://github.com/saltstack-formulas/haveged-formula.git
-[submodule "formulas/aboe76/haveged-formula"]
-	path = formulas/aboe76/haveged-formula
-	url = https://github.com/aboe76/haveged-formula.git
 [submodule "formulas/toppur/opsmatic-formula"]
 	path = formulas/toppur/opsmatic-formula
 	url = https://github.com/toppur/opsmatic-formula.git
