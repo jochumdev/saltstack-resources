@@ -124,9 +124,6 @@
 [submodule "formulas/bechtoldt/saltstack-time-formula"]
   path = formulas/bechtoldt/saltstack-time-formula
   url = https://github.com/bechtoldt/saltstack-time-formula.git
-[submodule "formulas/bechtoldt/saltstack-pulp-formula"]
-  path = formulas/bechtoldt/saltstack-pulp-formula
-  url = https://github.com/bechtoldt/saltstack-pulp-formula.git
 [submodule "formulas/bechtoldt/saltstack-sudo-formula"]
   path = formulas/bechtoldt/saltstack-sudo-formula
   url = https://github.com/bechtoldt/saltstack-sudo-formula.git
