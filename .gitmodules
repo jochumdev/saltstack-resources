@@ -677,3 +677,6 @@
 [submodule "formulas/toppur/opsmatic-formula"]
 	path = formulas/toppur/opsmatic-formula
 	url = https://github.com/toppur/opsmatic-formula.git
+[submodule "formulas/lextoumbourou/consul-formula"]
+	path = formulas/lextoumbourou/consul-formula
+	url = https://github.com/lextoumbourou/consul-formula.git
