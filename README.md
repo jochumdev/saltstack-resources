@@ -14,10 +14,10 @@ I use it to quickly find examples/formulas for my work.
 
     $ ./update-all.sh     # This will take some time!
 
-## Howtos available here
+## Howtos i've written for salt.
 
-* [Install lxc on Ubuntu](docs/ubuntu-lxc-install.md) with btrfs :)
-* [Prepare a ubuntu lxc base image](docs/ubuntu-lxc-image.md) for salt.
+* [Install lxc on Ubuntu](http://rene.jochums.at/2015/01/25/ubuntu-lxc-install/) with btrfs :)
+* [Prepare a ubuntu lxc base image](http://rene.jochums.at/2015/01/25/ubuntu-lxc-image/) for salt.
 
 
 ## Usefull saltstack links:
