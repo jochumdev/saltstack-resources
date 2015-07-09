@@ -2,3 +2,7 @@
 *.sublime-workspace
 
 salt-source/
+
+# Atom ctags
+.tags
+.tags1

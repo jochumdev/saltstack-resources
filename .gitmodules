@@ -680,3 +680,42 @@
 [submodule "formulas/lextoumbourou/consul-formula"]
 	path = formulas/lextoumbourou/consul-formula
 	url = https://github.com/lextoumbourou/consul-formula.git
+[submodule "formulas/jesusaurus/salt-formula-apt"]
+	path = formulas/jesusaurus/salt-formula-apt
+	url = https://github.com/jesusaurus/salt-formula-apt.git
+[submodule "formulas/jesusaurus/salt-formula-haproxy"]
+	path = formulas/jesusaurus/salt-formula-haproxy
+	url = https://github.com/jesusaurus/salt-formula-haproxy.git
+[submodule "formulas/jesusaurus/salt-formula-rabbitmq"]
+	path = formulas/jesusaurus/salt-formula-rabbitmq
+	url = https://github.com/jesusaurus/salt-formula-rabbitmq.git
+[submodule "formulas/jesusaurus/salt-formula-tinc"]
+	path = formulas/jesusaurus/salt-formula-tinc
+	url = https://github.com/jesusaurus/salt-formula-tinc.git
+[submodule "formulas/jesusaurus/salt-formula-redis"]
+	path = formulas/jesusaurus/salt-formula-redis
+	url = https://github.com/jesusaurus/salt-formula-redis.git
+[submodule "formulas/jesusaurus/salt-formula-percona"]
+	path = formulas/jesusaurus/salt-formula-percona
+	url = https://github.com/jesusaurus/salt-formula-percona.git
+[submodule "formulas/jesusaurus/salt-formula-openvpn"]
+	path = formulas/jesusaurus/salt-formula-openvpn
+	url = https://github.com/jesusaurus/salt-formula-openvpn.git
+[submodule "formulas/jesusaurus/salt-formula-ntp"]
+	path = formulas/jesusaurus/salt-formula-ntp
+	url = https://github.com/jesusaurus/salt-formula-ntp.git
+[submodule "formulas/jesusaurus/salt-formula-nginx"]
+	path = formulas/jesusaurus/salt-formula-nginx
+	url = https://github.com/jesusaurus/salt-formula-nginx.git
+[submodule "formulas/jesusaurus/salt-formula-elasticsearch"]
+	path = formulas/jesusaurus/salt-formula-elasticsearch
+	url = https://github.com/jesusaurus/salt-formula-elasticsearch.git
+[submodule "formulas/jesusaurus/salt-formula-datadog"]
+	path = formulas/jesusaurus/salt-formula-datadog
+	url = https://github.com/jesusaurus/salt-formula-datadog.git
+[submodule "formulas/jesusaurus/salt-formula-logstash"]
+	path = formulas/jesusaurus/salt-formula-logstash
+	url = https://github.com/jesusaurus/salt-formula-logstash.git
+[submodule "formulas/jesusaurus/salt-formula-upstart"]
+	path = formulas/jesusaurus/salt-formula-upstart
+	url = https://github.com/jesusaurus/salt-formula-upstart.git
