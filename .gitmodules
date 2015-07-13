@@ -773,3 +773,12 @@
 [submodule "formulas/pcdummy/saltstack-bird-formula"]
 	path = formulas/pcdummy/saltstack-bird-formula
 	url = https://github.com/pcdummy/saltstack-bird-formula.git
+[submodule "formulas/pcdummy/saltstack-softether-formula"]
+	path = formulas/pcdummy/saltstack-softether-formula
+	url = https://github.com/pcdummy/saltstack-softether-formula.git
+[submodule "formulas/pcdummy/saltstack-blueman-formula"]
+	path = formulas/pcdummy/saltstack-blueman-formula
+	url = https://github.com/pcdummy/saltstack-blueman-formula.git
+[submodule "formulas/pcdummy/saltstack-bluez-formula"]
+	path = formulas/pcdummy/saltstack-bluez-formula
+	url = https://github.com/pcdummy/saltstack-bluez-formula.git
