@@ -719,3 +719,57 @@
 [submodule "formulas/jesusaurus/salt-formula-upstart"]
 	path = formulas/jesusaurus/salt-formula-upstart
 	url = https://github.com/jesusaurus/salt-formula-upstart.git
+[submodule "state-examples/bolshevik/debian-nas-saltstack"]
+	path = state-examples/bolshevik/debian-nas-saltstack
+	url = https://github.com/bolshevik/debian-nas-saltstack.git
+[submodule "formulas/pcdummy/saltstack-knot-formula"]
+	path = formulas/pcdummy/saltstack-knot-formula
+	url = https://github.com/pcdummy/saltstack-knot-formula.git
+[submodule "formulas/pcdummy/saltstack-byobu-formula"]
+	path = formulas/pcdummy/saltstack-byobu-formula
+	url = https://github.com/pcdummy/saltstack-byobu-formula.git
+[submodule "formulas/pcdummy/saltstack-kodi-formula"]
+	path = formulas/pcdummy/saltstack-kodi-formula
+	url = https://github.com/pcdummy/saltstack-kodi-formula.git
+[submodule "formulas/pcdummy/saltstack-lxc-formula"]
+	path = formulas/pcdummy/saltstack-lxc-formula
+	url = https://github.com/pcdummy/saltstack-lxc-formula.git
+[submodule "formulas/pcdummy/saltstack-mongodb-formula"]
+	path = formulas/pcdummy/saltstack-mongodb-formula
+	url = https://github.com/pcdummy/saltstack-mongodb-formula.git
+[submodule "formulas/pcdummy/saltstack-network-formula"]
+	path = formulas/pcdummy/saltstack-network-formula
+	url = https://github.com/pcdummy/saltstack-network-formula.git
+[submodule "formulas/pcdummy/saltstack-nginx-formula"]
+	path = formulas/pcdummy/saltstack-nginx-formula
+	url = https://github.com/pcdummy/saltstack-nginx-formula
+[submodule "formulas/pcdummy/saltstack-omd-formula"]
+	path = formulas/pcdummy/saltstack-omd-formula
+	url = https://github.com/pcdummy/saltstack-omd-formula.git
+[submodule "formulas/pcdummy/saltstack-pip-formula"]
+	path = formulas/pcdummy/saltstack-pip-formula
+	url = https://github.com/pcdummy/saltstack-pip-formula.git
+[submodule "formulas/pcdummy/saltstack-quassel-formula"]
+	path = formulas/pcdummy/saltstack-quassel-formula
+	url = https://github.com/pcdummy/saltstack-quassel-formula.git
+[submodule "formulas/pcdummy/saltstack-salt_patches-formula"]
+	path = formulas/pcdummy/saltstack-salt_patches-formula
+	url = https://github.com/pcdummy/saltstack-salt_patches-formula.git
+[submodule "formulas/pcdummy/saltstack-users-formula"]
+	path = formulas/pcdummy/saltstack-users-formula
+	url = https://github.com/pcdummy/saltstack-users-formula.git
+[submodule "formulas/pcdummy/saltstack-ddns-formula"]
+	path = formulas/pcdummy/saltstack-ddns-formula
+	url = https://github.com/pcdummy/saltstack-ddns-formula.git
+[submodule "formulas/pcdummy/saltstack-locale-formula"]
+	path = formulas/pcdummy/saltstack-locale-formula
+	url = https://github.com/pcdummy/saltstack-locale-formula.git
+[submodule "formulas/pcdummy/saltstack-chrome-formula"]
+	path = formulas/pcdummy/saltstack-chrome-formula
+	url = https://github.com/pcdummy/saltstack-chrome-formula.git
+[submodule "formulas/pcdummy/saltstack-baseimage-formula"]
+	path = formulas/pcdummy/saltstack-baseimage-formula
+	url = https://github.com/pcdummy/saltstack-baseimage-formula.git
+[submodule "formulas/pcdummy/saltstack-bird-formula"]
+	path = formulas/pcdummy/saltstack-bird-formula
+	url = https://github.com/pcdummy/saltstack-bird-formula.git
