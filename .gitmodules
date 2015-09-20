@@ -647,9 +647,6 @@
 [submodule "state-examples/SS-archive/salt-states"]
   path = state-examples/SS-archive/salt-states
   url = https://github.com/SS-archive/salt-states.git
-[submodule "state-examples/ConsumerAffairs/salt-states"]
-  path = state-examples/ConsumerAffairs/salt-states
-  url = https://github.com/ConsumerAffairs/salt-states.git
 [submodule "state-examples/ist0ne/salt-states"]
   path = state-examples/ist0ne/salt-states
   url = https://github.com/ist0ne/salt-states.git
@@ -782,3 +779,12 @@
 [submodule "formulas/pcdummy/saltstack-bluez-formula"]
 	path = formulas/pcdummy/saltstack-bluez-formula
 	url = https://github.com/pcdummy/saltstack-bluez-formula.git
+[submodule "formulas/pcdummy/saltstack-mysql-formula"]
+	path = formulas/pcdummy/saltstack-mysql-formula
+	url = https://github.com/pcdummy/saltstack-mysql-formula.git
+[submodule "formulas/pcdummy/saltstack-ruby-formula"]
+	path = formulas/pcdummy/saltstack-ruby-formula
+	url = https://github.com/pcdummy/saltstack-ruby-formula.git
+[submodule "formulas/bechtoldt/salt-modules"]
+	path = formulas/bechtoldt/salt-modules
+	url = https://github.com/bechtoldt/salt-modules
