@@ -169,9 +169,6 @@
 [submodule "formulas/bechtoldt/saltstack-tinc-formula"]
   path = formulas/bechtoldt/saltstack-tinc-formula
   url = https://github.com/bechtoldt/saltstack-tinc-formula.git
-[submodule "formulas/bechtoldt/saltstack-ipa-formula"]
-  path = formulas/bechtoldt/saltstack-ipa-formula
-  url = https://github.com/bechtoldt/saltstack-ipa-formula.git
 [submodule "formulas/saltstack-formulas/apache-formula"]
   path = formulas/saltstack-formulas/apache-formula
   url = https://github.com/saltstack-formulas/apache-formula.git
