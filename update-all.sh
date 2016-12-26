@@ -28,6 +28,6 @@ curl -s https://api.github.com/orgs/bechtoldt/repos?per_page=200 | ruby -rubygem
   }
 '
 
-git submodule update --init --recursive
+# git submodule update --init --recursive
 git submodule foreach --recursive git fetch
 git submodule foreach git pull --ff-only origin master
