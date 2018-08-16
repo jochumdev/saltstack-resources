@@ -53,6 +53,7 @@ I use it to quickly find examples/formulas for my work.
   * [Obdi](https://github.com/mclarkson/obdi) - Exclusively made for Saltstack. See this [intro](http://blogger.smorg.co.uk/2015/01/obdi-in-pictures.html)
   * [Saltpad](https://github.com/tinyclues/saltpad) - SaltPad is a GUI and CLI tool to manage SaltStack deployments + orchestration. It's still very young and it's should be considered as Alpha.
   * [Halite](https://github.com/saltstack/halite) - Halite is a Salt GUI. Status is pre-alpha.
+  * [SaltGUI](https://github.com/maerteijn/SaltGUI) - A web interface for managing SaltStack based infrastructure - new in 2018.
 
 ### Advanced
 
